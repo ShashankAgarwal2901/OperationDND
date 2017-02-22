@@ -1,0 +1,10 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^zipyrides\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.zipyrides\.com$
+RewriteRule ^app$ "https\:\/\/play\.google\.com\/store\/apps\/details\?id\=com\.zipyrides" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^zipyrides\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.zipyrides\.com$
+RewriteRule ^internship$ "https\:\/\/zipywheels\.typeform\.com\/to\/lZy5PO" [R=301,L]
+
