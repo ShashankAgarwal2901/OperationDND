@@ -1,0 +1,25 @@
+body{
+	background: #000000;
+	color: #ffffff;
+	font-family: 'Ubuntu';
+	font-size: 29px;
+	line-height: 20px;
+}
+.container{
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Ubuntu';
+	font-size: 16px;
+	line-height: 20px;
+}
+.row{
+	padding: 50px 0 0 0 ;
+}
+
+.toplogo{
+	width:250px;
+	transition: all ease 0.25s;
+}
+.toplogo:hover{
+	width:255px;
+}
