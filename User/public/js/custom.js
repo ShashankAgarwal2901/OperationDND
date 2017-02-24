@@ -1,7 +1,16 @@
 $(document).ready(function(){
+	$('#SignUp').click(function(){
+		$.post('/SignUp' , {data:'SignUp'} , function(data){
+			$('body').load('SignIn.html');
+		});
+	}) 
 	$('#SignIn').click(function(){
-		$.post('UserPanel' , {data:'SignIn'} , function(data){
-			alert(data);
+		$.post('/SignIn' , {data:'SignIn'} , function(data){
+			$('body').load('SignIn.html');
 		});
 	})
+	$('#submit').click(function(){
+		alert($('#test').val());
+	})
+	
 })
